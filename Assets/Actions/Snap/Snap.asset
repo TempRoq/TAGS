@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6fe9c80895b09429bc954377b19a8c, type: 3}
+  m_Name: Snap
+  m_EditorClassIdentifier: 
+  clusters:
+  - {fileID: 11400000, guid: 0528b9c5c7dd6ba4a899b0aadaa7542e, type: 2}
+  clusterFrames: 05000000
+  attackLagFrames: 20
+  stopUser: 1
+  trigger: NeutralAttack
+  playInvokeSFX: 0
+  sfxFileName: 
+  beneathEffect: {fileID: 2509048210983847936, guid: 6f22f7ced206a744f9d4c3aafac0087b, type: 3}

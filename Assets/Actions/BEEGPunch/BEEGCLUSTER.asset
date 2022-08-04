@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725e7565116e14e458dcb40439d58c5e, type: 3}
+  m_Name: BEEGCLUSTER
+  m_EditorClassIdentifier: 
+  durationInFrames: 3
+  hitboxes:
+  - {fileID: 11400000, guid: aead98ba99f73da499979640162f259d, type: 2}
+  refreshHitList: 0
+  xOriginPointOffset: 0
+  playInvokeSFX: 1
+  sfxFileName: HaymakerWoosh

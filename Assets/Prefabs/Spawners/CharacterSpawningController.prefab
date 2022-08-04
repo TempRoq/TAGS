@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8221127162651249924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8221127162651249930}
+  - component: {fileID: 8221127162651249931}
+  - component: {fileID: 4300232147314269671}
+  - component: {fileID: 1586224968}
+  m_Layer: 0
+  m_Name: CharacterSpawningController
+  m_TagString: Respawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8221127162651249930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8221127162651249924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.67, y: 3.27, z: 2.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8221127162651249931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8221127162651249924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad17521134281314883f4a04712373ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingCharacter: 0
+  MainCharacterReferencesPublic: []
+  spawnChars:
+  - {fileID: 8820186404601255172, guid: 102782a621fb27c44a35d21e7f3e1f6d, type: 3}
+  - {fileID: 8820186404601255172, guid: e521eea78674563418fee5c7c335721a, type: 3}
+--- !u!114 &4300232147314269671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8221127162651249924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4641975271990499e0d0d410aaf5ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintInvokeDelay: 0.5
+  hitEffect: {fileID: 4904161190539156779, guid: 3be8652f09b3821459f741b24112826f, type: 3}
+--- !u!114 &1586224968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8221127162651249924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 300fcd479de3c634aae694ee90719b28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeSlowFreezeDuration: 0.2
+  slowdownFactor: 0.5
+  _currSlowdownMeter: 50
+  _slowDepletionRate: 10
+  _maxSlowdownMeter: 100
+  _slowedDown: 0
+  _canSlowDown: 0
+  slowCooldownDuration: 1
+  canSlowDownAgain: 0
+  _Vignette: {fileID: 2999524544081295362, guid: 978f8fe75bf0fba4eabcb45e9c59cd5c, type: 3}
+  Canvas: {fileID: 7499273422229144801, guid: 41400e05795ec044d83f0d755539bb2d, type: 3}

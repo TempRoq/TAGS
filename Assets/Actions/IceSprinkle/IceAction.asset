@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6fe9c80895b09429bc954377b19a8c, type: 3}
+  m_Name: IceAction
+  m_EditorClassIdentifier: 
+  clusters:
+  - {fileID: 11400000, guid: cf588ae89d8a8aa42a2f98574d99f699, type: 2}
+  - {fileID: 11400000, guid: cf588ae89d8a8aa42a2f98574d99f699, type: 2}
+  - {fileID: 11400000, guid: cf588ae89d8a8aa42a2f98574d99f699, type: 2}
+  - {fileID: 11400000, guid: cf588ae89d8a8aa42a2f98574d99f699, type: 2}
+  - {fileID: 11400000, guid: 813116d87d3a4d140811102f06580b80, type: 2}
+  clusterFrames: 01000000070000000d0000001300000019000000
+  attackLagFrames: 30
+  stopUser: 1
+  trigger: Ice
+  playInvokeSFX: 1
+  sfxFileName: IceExplosion
+  beneathEffect: {fileID: 0}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6fe9c80895b09429bc954377b19a8c, type: 3}
+  m_Name: Dash
+  m_EditorClassIdentifier: 
+  clusters:
+  - {fileID: 11400000, guid: 657f34a4feb3ce344a0df7351d1455c3, type: 2}
+  clusterFrames: 03000000
+  attackLagFrames: 15
+  stopUser: 1
+  trigger: Dash

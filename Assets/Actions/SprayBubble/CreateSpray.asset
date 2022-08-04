@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18d37647340cf54d9a3991cc117da0a, type: 3}
+  m_Name: CreateSpray
+  m_EditorClassIdentifier: 
+  durationInFrames: 2
+  hitboxes:
+  - {fileID: 11400000, guid: 61d3636f6ccd35440be599b93e98a5b4, type: 2}
+  - {fileID: 11400000, guid: 44f9b4799a5e92c4c949dc2e1f6e1ca7, type: 2}
+  refreshHitList: 0
+  xOriginPointOffset: 0
+  playInvokeSFX: 0
+  sfxFileName: 
+  itemToSpawn: {fileID: 8653162628660210656, guid: 238040e05117f004c8c016e1207e7a52, type: 3}
+  offsetSpawned: {x: 0, y: 0.25, z: 0}
